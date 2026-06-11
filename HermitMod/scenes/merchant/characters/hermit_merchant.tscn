@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://src/Core/Nodes/Screens/Shops/NMerchantCharacter.cs" id="1_script"]
+[ext_resource type="SpineSkeletonDataResource" path="res://HermitMod/animations/merchant/the_hermit/the_hermit_merchant_skel_data.tres" id="2_skeldata"]
+
+[node name="HermitMerchant" type="Node2D"]
+script = ExtResource("1_script")
+
+[node name="SpineSprite" type="SpineSprite" parent="."]
+skeleton_data_res = ExtResource("2_skeldata")
+preview_skin = "Default"
+preview_animation = "relaxed_loop"
+preview_frame = false
+preview_time = 0.0
+scale = Vector2(0.30, 0.30)

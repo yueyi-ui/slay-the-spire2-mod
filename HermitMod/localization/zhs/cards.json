@@ -1,0 +1,8 @@
+{
+  "HERMITMOD-HELLO_WORLD.title": "Hello World",
+  "HERMITMOD-HELLO_WORLD.description": "获得 {Bit:diff()} 点比特。\n抽 1 张牌。",
+  "HERMITMOD-STRIKE_HERMIT.title": "打击",
+  "HERMITMOD-STRIKE_HERMIT.description": "造成 {Damage:diff()} 点伤害。",
+  "HERMITMOD-DEFEND_HERMIT.title": "防御",
+  "HERMITMOD-DEFEND_HERMIT.description": "获得 {Block:diff()} 点格挡。"
+}
