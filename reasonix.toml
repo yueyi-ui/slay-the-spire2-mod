@@ -1,2 +1,0 @@
-[permissions]
-allow = ["explore", "Bash(ls \"F:\\SteamLibrary\\steamapps\\common\\Slay the Spire 2\\data_sts2_windows_x86_64\\\" 2>/dev/null | head -50)"]
