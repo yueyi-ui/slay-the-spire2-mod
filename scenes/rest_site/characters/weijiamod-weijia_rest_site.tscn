@@ -1,0 +1,41 @@
+[gd_scene load_steps=2 format=3 uid="uid://cxne25081hmvr"]
+
+[ext_resource type="Texture2D" uid="uid://ixxhpthfm3or" path="res://images/char/Weijia_resite.png" id="1_0jwhq"]
+
+[node name="WeijiaRest" type="Node2D"]
+
+[node name="Bounds" type="Control" parent="."]
+unique_name_in_owner = true
+layout_mode = 3
+anchors_preset = 0
+offset_left = -79.0
+offset_top = -160.0
+offset_right = 81.0
+mouse_filter = 2
+
+[node name="CenterPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(0, -80)
+
+[node name="TalkPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(60, -120)
+
+[node name="controlroot" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Hitbox" type="Control" parent="."]
+unique_name_in_owner = true
+layout_mode = 3
+anchors_preset = 0
+offset_left = -39.0
+offset_top = -48.0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="WeijiaResite" type="Sprite2D" parent="."]
+position = Vector2(5, -26)
+texture = ExtResource("1_0jwhq")

@@ -1,0 +1,581 @@
+[gd_scene load_steps=131 format=3 uid="uid://dfnoqjynibnis"]
+
+[ext_resource type="Texture2D" uid="uid://bfca3p360nvwn" path="res://images/char/attack/生成2D游戏攻击动画_1.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://bq4bpggbyb73h" path="res://images/char/attack/生成2D游戏攻击动画_7.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cvevou23a28nc" path="res://images/char/attack/生成2D游戏攻击动画_8.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://yulqjx2b5sjl" path="res://images/char/attack/生成2D游戏攻击动画_9.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://cxx5nl2mcv4wj" path="res://images/char/attack/生成2D游戏攻击动画_10.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://b15vmtnm0k8e6" path="res://images/char/attack/生成2D游戏攻击动画_11.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://bxuup1aofpn1a" path="res://images/char/attack/生成2D游戏攻击动画_12.png" id="7"]
+[ext_resource type="Texture2D" uid="uid://dft1qukshrtcy" path="res://images/char/attack/生成2D游戏攻击动画_13.png" id="8"]
+[ext_resource type="Texture2D" uid="uid://tijwero5vn40" path="res://images/char/attack/生成2D游戏攻击动画_16.png" id="9"]
+[ext_resource type="Texture2D" uid="uid://dwx1xeytvrscp" path="res://images/char/attack/生成2D游戏攻击动画_19.png" id="10"]
+[ext_resource type="Texture2D" uid="uid://cmbsln1ix2gde" path="res://images/char/attack/生成2D游戏攻击动画_20.png" id="11"]
+[ext_resource type="Texture2D" uid="uid://77qbstsxmwsv" path="res://images/char/attack/生成2D游戏攻击动画_24.png" id="12"]
+[ext_resource type="Texture2D" uid="uid://hod5ixwtxlau" path="res://images/char/attack/生成2D游戏攻击动画_25.png" id="13"]
+[ext_resource type="Texture2D" uid="uid://1q87gr14mua" path="res://images/char/attack/生成2D游戏攻击动画_26.png" id="14"]
+[ext_resource type="Texture2D" uid="uid://dwdw6bbmxwwhm" path="res://images/char/attack/生成2D游戏攻击动画_29.png" id="15"]
+[ext_resource type="Texture2D" uid="uid://c4lfcgx1von12" path="res://images/char/attack/生成2D游戏攻击动画_30.png" id="16"]
+[ext_resource type="Texture2D" uid="uid://ciffwyol0mmq" path="res://images/char/attack/生成2D游戏攻击动画_31.png" id="17"]
+[ext_resource type="Texture2D" uid="uid://52wogdvqsdr" path="res://images/char/attack/生成2D游戏攻击动画_32.png" id="18"]
+[ext_resource type="Texture2D" uid="uid://b1btialvhae1e" path="res://images/char/attack/生成2D游戏攻击动画_33.png" id="19"]
+[ext_resource type="Texture2D" uid="uid://bk7tqluyufurl" path="res://images/char/attack/生成2D游戏攻击动画_34.png" id="20"]
+[ext_resource type="Texture2D" uid="uid://vfnxl25ic7il" path="res://images/char/attack/生成2D游戏攻击动画_35.png" id="21"]
+[ext_resource type="Texture2D" uid="uid://ba4hiqjvro7wo" path="res://images/char/attack/生成2D游戏攻击动画_36.png" id="22"]
+[ext_resource type="Texture2D" uid="uid://ddi6bd31kmepq" path="res://images/char/attack/生成2D游戏攻击动画_37.png" id="23"]
+[ext_resource type="Texture2D" uid="uid://diwiyu70ip7u3" path="res://images/char/attack/生成2D游戏攻击动画_38.png" id="24"]
+[ext_resource type="Texture2D" uid="uid://ci21mbyt8gihg" path="res://images/char/attack/生成2D游戏攻击动画_39.png" id="25"]
+[ext_resource type="Texture2D" uid="uid://dstgbcnmlukpw" path="res://images/char/attack/生成2D游戏攻击动画_40.png" id="26"]
+[ext_resource type="Texture2D" uid="uid://bs6ect20ll3j3" path="res://images/char/attack/生成2D游戏攻击动画_41.png" id="27"]
+[ext_resource type="Texture2D" uid="uid://y03uueoympgb" path="res://images/char/attack/生成2D游戏攻击动画_42.png" id="28"]
+[ext_resource type="Texture2D" uid="uid://clyrk6fu5p4jr" path="res://images/char/attack/生成2D游戏攻击动画_43.png" id="29"]
+[ext_resource type="Texture2D" uid="uid://d0e7uvrpqrkji" path="res://images/char/attack/生成2D游戏攻击动画_44.png" id="30"]
+[ext_resource type="Texture2D" uid="uid://bgudrwtt08sxo" path="res://images/char/attack/生成2D游戏攻击动画_45.png" id="31"]
+[ext_resource type="Texture2D" uid="uid://dyvfdrvhv5t28" path="res://images/char/attack/生成2D游戏攻击动画_46.png" id="32"]
+[ext_resource type="Texture2D" uid="uid://dowr7p62q2uij" path="res://images/char/attack/生成2D游戏攻击动画_47.png" id="33"]
+[ext_resource type="Texture2D" uid="uid://cqu4idrh5nqlc" path="res://images/char/attack/生成2D游戏攻击动画_48.png" id="34"]
+[ext_resource type="Texture2D" uid="uid://b18svqmt2n7l7" path="res://images/char/attack/生成2D游戏攻击动画_49.png" id="35"]
+[ext_resource type="Texture2D" uid="uid://d3t3vq8kdk1y8" path="res://images/char/attack/生成2D游戏攻击动画_50.png" id="36"]
+[ext_resource type="Texture2D" uid="uid://n08nlji433gp" path="res://images/char/attack/生成2D游戏攻击动画_51.png" id="37"]
+[ext_resource type="Texture2D" uid="uid://bqkknkjm3nd50" path="res://images/char/attack/生成2D游戏攻击动画_52.png" id="38"]
+[ext_resource type="Texture2D" uid="uid://boerp8tamyglr" path="res://images/char/attack/生成2D游戏攻击动画_53.png" id="39"]
+[ext_resource type="Texture2D" uid="uid://dej34akyi1jnq" path="res://images/char/attack/生成2D游戏攻击动画_54.png" id="40"]
+[ext_resource type="Texture2D" uid="uid://d2s3ily624xo" path="res://images/char/attack/生成2D游戏攻击动画_55.png" id="41"]
+[ext_resource type="Texture2D" uid="uid://c4gwbbpioyc2p" path="res://images/char/attack/生成2D游戏攻击动画_56.png" id="42"]
+[ext_resource type="Texture2D" uid="uid://bvu8b60pka6ly" path="res://images/char/attack/生成2D游戏攻击动画_57.png" id="43"]
+[ext_resource type="Texture2D" uid="uid://dckqh5c6m885e" path="res://images/char/attack/生成2D游戏攻击动画_58.png" id="44"]
+[ext_resource type="Texture2D" uid="uid://ddbd2vmael2km" path="res://images/char/attack/生成2D游戏攻击动画_59.png" id="45"]
+[ext_resource type="Texture2D" uid="uid://c0y43jjx0ieu8" path="res://images/char/attack/生成2D游戏攻击动画_60.png" id="46"]
+[ext_resource type="Texture2D" uid="uid://xmtyswno0v4d" path="res://images/char/death/生成2D游戏攻击动画__2__1.png" id="47"]
+[ext_resource type="Texture2D" uid="uid://u8yp2y7skwpo" path="res://images/char/death/生成2D游戏攻击动画__2__2.png" id="48"]
+[ext_resource type="Texture2D" uid="uid://dxen2mgjkjrmg" path="res://images/char/death/生成2D游戏攻击动画__2__3.png" id="49"]
+[ext_resource type="Texture2D" uid="uid://c0tb8ckchq2mr" path="res://images/char/death/生成2D游戏攻击动画__2__4.png" id="50"]
+[ext_resource type="Texture2D" uid="uid://b87hpfjwq8o4j" path="res://images/char/death/生成2D游戏攻击动画__2__5.png" id="51"]
+[ext_resource type="Texture2D" uid="uid://b6uk0ecwdulxu" path="res://images/char/death/生成2D游戏攻击动画__2__6.png" id="52"]
+[ext_resource type="Texture2D" uid="uid://cjxs20fr5415f" path="res://images/char/death/生成2D游戏攻击动画__2__7.png" id="53"]
+[ext_resource type="Texture2D" uid="uid://bqf2hdtwgusec" path="res://images/char/death/生成2D游戏攻击动画__2__8.png" id="54"]
+[ext_resource type="Texture2D" uid="uid://bkuixca6x6fwy" path="res://images/char/death/生成2D游戏攻击动画__2__9.png" id="55"]
+[ext_resource type="Texture2D" uid="uid://dpuqitvra4mtk" path="res://images/char/death/生成2D游戏攻击动画__2__10.png" id="56"]
+[ext_resource type="Texture2D" uid="uid://dgxdf8kh5o7o6" path="res://images/char/death/生成2D游戏攻击动画__2__11.png" id="57"]
+[ext_resource type="Texture2D" uid="uid://dfxd5s6hho8lc" path="res://images/char/death/生成2D游戏攻击动画__2__12.png" id="58"]
+[ext_resource type="Texture2D" uid="uid://cxxitar8mps8e" path="res://images/char/death/生成2D游戏攻击动画__2__13.png" id="59"]
+[ext_resource type="Texture2D" uid="uid://by5n3edjom1x8" path="res://images/char/death/生成2D游戏攻击动画__2__14.png" id="60"]
+[ext_resource type="Texture2D" uid="uid://ccewkx6osvqjk" path="res://images/char/death/生成2D游戏攻击动画__2__15.png" id="61"]
+[ext_resource type="Texture2D" uid="uid://c5j2w62bfna6b" path="res://images/char/death/生成2D游戏攻击动画__2__16.png" id="62"]
+[ext_resource type="Texture2D" uid="uid://rkqrghh2f5rq" path="res://images/char/death/生成2D游戏攻击动画__2__17.png" id="63"]
+[ext_resource type="Texture2D" uid="uid://dedr5g2tdaa1" path="res://images/char/death/生成2D游戏攻击动画__2__18.png" id="64"]
+[ext_resource type="Texture2D" uid="uid://clwtuhg12m7y7" path="res://images/char/death/生成2D游戏攻击动画__2__19.png" id="65"]
+[ext_resource type="Texture2D" uid="uid://baqs6vii7bm3g" path="res://images/char/death/生成2D游戏攻击动画__2__20.png" id="66"]
+[ext_resource type="Texture2D" uid="uid://dto58d4avun85" path="res://images/char/death/生成2D游戏攻击动画__2__21.png" id="67"]
+[ext_resource type="Texture2D" uid="uid://b65si7y70i71d" path="res://images/char/death/生成2D游戏攻击动画__2__22.png" id="68"]
+[ext_resource type="Texture2D" uid="uid://havbyr7myg5c" path="res://images/char/death/生成2D游戏攻击动画__2__23.png" id="69"]
+[ext_resource type="Texture2D" uid="uid://8at3qa525ljs" path="res://images/char/death/生成2D游戏攻击动画__2__24.png" id="70"]
+[ext_resource type="Texture2D" uid="uid://cyybo2l5papgy" path="res://images/char/death/生成2D游戏攻击动画__2__25.png" id="71"]
+[ext_resource type="Texture2D" uid="uid://c0g5070df3fym" path="res://images/char/death/生成2D游戏攻击动画__2__26.png" id="72"]
+[ext_resource type="Texture2D" uid="uid://be8dbohqbms2u" path="res://images/char/death/生成2D游戏攻击动画__2__27.png" id="73"]
+[ext_resource type="Texture2D" uid="uid://bu0a2ey3ocdax" path="res://images/char/death/生成2D游戏攻击动画__2__28.png" id="74"]
+[ext_resource type="Texture2D" uid="uid://c7gexgp7fel8e" path="res://images/char/death/生成2D游戏攻击动画__2__29.png" id="75"]
+[ext_resource type="Texture2D" uid="uid://c4f8ys3p6vwbg" path="res://images/char/death/生成2D游戏攻击动画__2__30.png" id="76"]
+[ext_resource type="Texture2D" uid="uid://cdglqy0qiqwr1" path="res://images/char/death/生成2D游戏攻击动画__2__31.png" id="77"]
+[ext_resource type="Texture2D" uid="uid://c85b3ky6ahhrl" path="res://images/char/death/生成2D游戏攻击动画__2__32.png" id="78"]
+[ext_resource type="Texture2D" uid="uid://bngkagme4aaph" path="res://images/char/death/生成2D游戏攻击动画__2__33.png" id="79"]
+[ext_resource type="Texture2D" uid="uid://dibfy7b8xksvi" path="res://images/char/death/生成2D游戏攻击动画__2__34.png" id="80"]
+[ext_resource type="Texture2D" uid="uid://rwoj4clmbvph" path="res://images/char/death/生成2D游戏攻击动画__2__35.png" id="81"]
+[ext_resource type="Texture2D" uid="uid://d1nedy4wundmy" path="res://images/char/death/生成2D游戏攻击动画__2__36.png" id="82"]
+[ext_resource type="Texture2D" uid="uid://8b7p2fbx3s5v" path="res://images/char/death/生成2D游戏攻击动画__2__37.png" id="83"]
+[ext_resource type="Texture2D" uid="uid://c7awbwr0dv62d" path="res://images/char/death/生成2D游戏攻击动画__2__38.png" id="84"]
+[ext_resource type="Texture2D" uid="uid://bemdw8welgovf" path="res://images/char/death/生成2D游戏攻击动画__2__39.png" id="85"]
+[ext_resource type="Texture2D" uid="uid://bp3ommaf5w3td" path="res://images/char/death/生成2D游戏攻击动画__2__40.png" id="86"]
+[ext_resource type="Texture2D" uid="uid://cqpfw2eixouuf" path="res://images/char/death/生成2D游戏攻击动画__2__41.png" id="87"]
+[ext_resource type="Texture2D" uid="uid://dv12p3h8idb5g" path="res://images/char/death/生成2D游戏攻击动画__2__42.png" id="88"]
+[ext_resource type="Texture2D" uid="uid://b4r17lx3qr8t1" path="res://images/char/death/生成2D游戏攻击动画__2__43.png" id="89"]
+[ext_resource type="Texture2D" uid="uid://sbr2hb1ao3j8" path="res://images/char/death/生成2D游戏攻击动画__2__44.png" id="90"]
+[ext_resource type="Texture2D" uid="uid://dod5d2xsiu848" path="res://images/char/death/生成2D游戏攻击动画__2__45.png" id="91"]
+[ext_resource type="Texture2D" uid="uid://cny5fga7sos5c" path="res://images/char/death/生成2D游戏攻击动画__2__46.png" id="92"]
+[ext_resource type="Texture2D" uid="uid://dgyh7cgeusurp" path="res://images/char/death/生成2D游戏攻击动画__2__47.png" id="93"]
+[ext_resource type="Texture2D" uid="uid://67a4qec8i20x" path="res://images/char/death/生成2D游戏攻击动画__2__48.png" id="94"]
+[ext_resource type="Texture2D" uid="uid://dgjl355776g4k" path="res://images/char/death/生成2D游戏攻击动画__2__49.png" id="95"]
+[ext_resource type="Texture2D" uid="uid://b6rutawap63wo" path="res://images/char/death/生成2D游戏攻击动画__2__50.png" id="96"]
+[ext_resource type="Texture2D" uid="uid://dw5fradmwqemh" path="res://images/char/death/生成2D游戏攻击动画__2__51.png" id="97"]
+[ext_resource type="Texture2D" uid="uid://bsfcqhoo6aadt" path="res://images/char/death/生成2D游戏攻击动画__2__52.png" id="98"]
+[ext_resource type="Texture2D" uid="uid://brajrmy18x28x" path="res://images/char/death/生成2D游戏攻击动画__2__53.png" id="99"]
+[ext_resource type="Texture2D" uid="uid://cxblqfatfd4fw" path="res://images/char/death/生成2D游戏攻击动画__2__54.png" id="100"]
+[ext_resource type="Texture2D" uid="uid://cxh6j6y5av6j5" path="res://images/char/death/生成2D游戏攻击动画__2__55.png" id="101"]
+[ext_resource type="Texture2D" uid="uid://cmdsagmtttn3c" path="res://images/char/death/生成2D游戏攻击动画__2__56.png" id="102"]
+[ext_resource type="Texture2D" uid="uid://cwpogpg4ynkg1" path="res://images/char/death/生成2D游戏攻击动画__2__57.png" id="103"]
+[ext_resource type="Texture2D" uid="uid://cswcx0lx81gqp" path="res://images/char/death/生成2D游戏攻击动画__2__58.png" id="104"]
+[ext_resource type="Texture2D" uid="uid://cbnrbhu00t3jq" path="res://images/char/death/生成2D游戏攻击动画__2__59.png" id="105"]
+[ext_resource type="Texture2D" uid="uid://s4qwxejogysq" path="res://images/char/death/生成2D游戏攻击动画__2__60.png" id="106"]
+[ext_resource type="Texture2D" uid="uid://c0qrt6cwy7yc2" path="res://images/char/death/生成2D游戏攻击动画__2__61.png" id="107"]
+[ext_resource type="Texture2D" uid="uid://c1hqxilrqwopn" path="res://images/char/death/生成2D游戏攻击动画__2__62.png" id="108"]
+[ext_resource type="Texture2D" uid="uid://g3auo278mugt" path="res://images/char/death/生成2D游戏攻击动画__2__63.png" id="109"]
+[ext_resource type="Texture2D" uid="uid://w5drdmgtpy2d" path="res://images/char/death/生成2D游戏攻击动画__2__64.png" id="110"]
+[ext_resource type="Texture2D" uid="uid://ep57pq35g8co" path="res://images/char/death/生成2D游戏攻击动画__2__65.png" id="111"]
+[ext_resource type="Texture2D" uid="uid://vy1yrjdeq12w" path="res://images/char/death/生成2D游戏攻击动画__2__66.png" id="112"]
+[ext_resource type="Texture2D" uid="uid://4xxuebh5vjy0" path="res://images/char/death/生成2D游戏攻击动画__2__67.png" id="113"]
+[ext_resource type="Texture2D" uid="uid://b7jy8cbmpxrto" path="res://images/char/death/生成2D游戏攻击动画__2__68.png" id="114"]
+[ext_resource type="Texture2D" uid="uid://2ukgnrjob2k5" path="res://images/char/death/生成2D游戏攻击动画__2__69.png" id="115"]
+[ext_resource type="Texture2D" uid="uid://beouypaqnfsq7" path="res://images/char/death/生成2D游戏攻击动画__2__70.png" id="116"]
+[ext_resource type="Texture2D" uid="uid://ccvk4b3ntpsxf" path="res://images/char/death/生成2D游戏攻击动画__2__71.png" id="117"]
+[ext_resource type="Texture2D" uid="uid://bfrk0xa1dntqv" path="res://images/char/death/生成2D游戏攻击动画__2__72.png" id="118"]
+[ext_resource type="Texture2D" uid="uid://bcvu5yve63lhf" path="res://images/char/death/生成2D游戏攻击动画__2__73.png" id="119"]
+[ext_resource type="Texture2D" uid="uid://ywbwwldquyfl" path="res://images/char/death/生成2D游戏攻击动画__2__74.png" id="120"]
+[ext_resource type="Texture2D" uid="uid://cw7irph6ru7vv" path="res://images/char/death/生成2D游戏攻击动画__2__75.png" id="121"]
+[ext_resource type="Texture2D" uid="uid://cibne2iuymy37" path="res://images/char/death/生成2D游戏攻击动画__2__76.png" id="122"]
+[ext_resource type="Texture2D" uid="uid://clkxkeqy3uoyh" path="res://images/char/death/生成2D游戏攻击动画__2__77.png" id="123"]
+[ext_resource type="Texture2D" uid="uid://d28rwtwvh8yeb" path="res://images/char/death/生成2D游戏攻击动画__2__78.png" id="124"]
+[ext_resource type="Texture2D" uid="uid://dqm85qwoc2ig0" path="res://images/char/death/生成2D游戏攻击动画__2__79.png" id="125"]
+[ext_resource type="Texture2D" uid="uid://3j7n1h4ab7l8" path="res://images/char/death/生成2D游戏攻击动画__2__80.png" id="126"]
+[ext_resource type="Texture2D" uid="uid://byjrhstb1cvc" path="res://images/char/death/生成2D游戏攻击动画__2__82.png" id="127"]
+[ext_resource type="Texture2D" uid="uid://dci5m7s28tyu5" path="res://images/char/death/生成2D游戏攻击动画__2__83.png" id="128"]
+[ext_resource type="Texture2D" uid="uid://dp046wcrmk5ub" path="res://images/char/death/生成2D游戏攻击动画__2__84.png" id="129"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_eaour"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46")
+}],
+"loop": false,
+"name": &"Attack",
+"speed": 120.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129")
+}],
+"loop": false,
+"name": &"die",
+"speed": 30.0
+}]
+
+[node name="Hermit" type="Node2D"]
+position = Vector2(0, -4)
+metadata/_edit_group_ = true
+
+[node name="Weijia" type="AnimatedSprite2D" parent="."]
+position = Vector2(-9.499987, -149.49998)
+scale = Vector2(0.3319444, 0.31796876)
+sprite_frames = SubResource("SpriteFrames_eaour")
+animation = &"die"
+autoplay = "Idle"
+
+[node name="AttackTilt" type="Node2D" parent="."]
+unique_name_in_owner = true
+
+[node name="Bounds" type="Control" parent="."]
+unique_name_in_owner = true
+layout_mode = 3
+anchors_preset = 0
+offset_left = -110.0
+offset_top = -260.0
+offset_right = 110.0
+mouse_filter = 2
+
+[node name="CenterPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(0, -140)
+
+[node name="IntentPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(0, -290)
+
+[node name="OrbPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(80, -180)
+
+[node name="TalkPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(80, -220)
+
+[node name="Visuals" type="Node2D" parent="."]
+unique_name_in_owner = true

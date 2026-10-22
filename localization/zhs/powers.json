@@ -1,0 +1,18 @@
+{
+  "WEIJIAMOD-BIT_POWER.title": "比特",
+  "WEIJIAMOD-BIT_POWER.description": "数据资源，可积累可消耗。",
+  "WEIJIAMOD-FOCUS_POWER.title": "专注",
+  "WEIJIAMOD-FOCUS_POWER.description": "每回合结束时，每层获得 3 点[gold]格挡[/gold]。",
+  "WEIJIAMOD-ADAPT_POWER.title": "适应",
+  "WEIJIAMOD-ADAPT_POWER.description": "每回合开始时，每层获得 8 点[gold]格挡[/gold]。",
+  "WEIJIAMOD-BRUISE_POWER.title": "青肿",
+  "WEIJIAMOD-BRUISE_POWER.description": "敌人回合结束时，每层受到 4 点伤害，然后减少 1 层。",
+  "WEIJIAMOD-RUGGED_POWER.title": "坚韧",
+  "WEIJIAMOD-RUGGED_POWER.description": "回合开始时，每层获得 5 点[gold]格挡[/gold]，然后减少 1 层。",
+  "WEIJIAMOD-ETERNAL_FORM_POWER.title": "永恒形态",
+  "WEIJIAMOD-ETERNAL_FORM_POWER.description": "每回合开始时额外抽1张牌。",
+  "WEIJIAMOD-FOCUSED_MIND_POWER.title": "专注思维",
+  "WEIJIAMOD-FOCUSED_MIND_POWER.description": "每回合开始时抽1张牌。若持有[gold]专注[/gold]，改为抽2张。",
+  "WEIJIAMOD-DOUBLE_TAP_POWER.title": "连射",
+  "WEIJIAMOD-DOUBLE_TAP_POWER.description": "下回合开始时获得能量，然后移除。"
+}

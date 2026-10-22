@@ -1,0 +1,17 @@
+{
+  "WEIJIAMOD-WEIJIA.title": "为嘉",
+  "WEIJIAMOD-WEIJIA.titleObject": "Weijia",
+  "WEIJIAMOD-WEIJIA.description": "计算机专业大学生，练跆拳道、打辩论、考研中。是gay",
+  "WEIJIAMOD-WEIJIA.cardsModifierTitle": "为嘉卡牌",
+  "WEIJIAMOD-WEIJIA.cardsModifierDescription": "为嘉的卡牌现在会出现在奖励和商店中。",
+  "WEIJIAMOD-WEIJIA.pronounSubject": "他",
+  "WEIJIAMOD-WEIJIA.pronounObject": "他",
+  "WEIJIAMOD-WEIJIA.pronounPossessive": "他的",
+  "WEIJIAMOD-WEIJIA.possessiveAdjective": "他的",
+  "WEIJIAMOD-WEIJIA.unlockText": "用[pink]{Prerequisite}[/pink]进行一局游戏来解锁这个角色。",
+  "WEIJIAMOD-WEIJIA.aromaPrinciple": "",
+  "WEIJIAMOD-WEIJIA.banter.alive.endTurnPing": "",
+  "WEIJIAMOD-WEIJIA.banter.dead.endTurnPing": "",
+  "WEIJIAMOD-WEIJIA.eventDeathPrevention": "",
+  "WEIJIAMOD-WEIJIA.goldMonologue": ""
+}

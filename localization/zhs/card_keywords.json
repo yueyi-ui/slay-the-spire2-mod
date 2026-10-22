@@ -1,0 +1,12 @@
+{
+  "WEIJIAMOD-BIT.title": "比特",
+  "WEIJIAMOD-BIT.description": "数据资源，可积累可消耗。通过卡牌效果积累比特，部分卡牌可消耗比特获取额外收益。",
+  "WEIJIAMOD-FOCUS.title": "专注",
+  "WEIJIAMOD-FOCUS.description": "每回合结束时，每层获得 3 点[gold]格挡[/gold]。专注是可靠的防御性资源。",
+  "WEIJIAMOD-BRUISE.title": "青肿",
+  "WEIJIAMOD-BRUISE.description": "敌人回合结束时，每层[red]青肿[/red]造成 4 点伤害，然后减少 1 层。有效压制敌人血线。",
+  "WEIJIAMOD-RUGGED.title": "坚韧",
+  "WEIJIAMOD-RUGGED.description": "回合开始时，每层[gold]坚韧[/gold]获得 5 点[gold]格挡[/gold]，然后减少 1 层。爆发性的防御手段。",
+  "WEIJIAMOD-ADAPT.title": "适应",
+  "WEIJIAMOD-ADAPT.description": "每回合开始时，每层[gold]适应[/gold]获得 8 点[gold]格挡[/gold]。稳定的防守积累。"
+}

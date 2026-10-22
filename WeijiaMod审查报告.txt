@@ -1,0 +1,70 @@
+WeijiaMod 代码审查报告
+========================
+审查时间: 2026-07-16
+审查范围: 全部 C# 源代码及配置文件
+最后更新: 2026-07-16 (所有问题已修复)
+
+---
+
+## 修复状态: ✅ 全部修复完成
+
+所有 9 项问题已于 2026-07-16 修复并验证编译通过 (0 errors, 0 warnings)。
+
+---
+
+## ✅ 已修复的严重问题
+
+### 1. AdaptPower 和 EternalFormPower 的 Hook 方法
+
+- **AdaptPower.cs**: `new` → `override` ✓
+- **EternalFormPower.cs**: 添加 `Player player` 参数 + `override` 关键字 + 添加缺失的 `using MegaCrit.Sts2.Core.Entities.Players` ✓
+- **效果**: 「适应」每回合给格挡、「永恒形态」每回合抽牌的能力现在正常触发
+
+### 2. 七张 AllEnemies 卡牌去掉 .Targeting(play.Target)
+
+| 文件 | 卡牌 | 状态 |
+|------|------|------|
+| WeijiaBatch2.cs | FlashPowder (闪光粉) | ✓ |
+| WeijiaBatch2.cs | HighNoon (正午) | ✓ |
+| WeijiaBatch2.cs | WideOpen (大开眼界) | ✓ |
+| WeijiaBatch3.cs | EyeOfTheStorm (风暴之眼) | ✓ |
+| WeijiaBatch3.cs | Horror (恐怖) | ✓ |
+| WeijiaBrawl.cs | Brawl (混战) | ✓ |
+| WeijiaMoreCards.cs | BlackWind (黑风) | ✓ |
+
+- **效果**: 消除 AllEnemies 卡牌可能的空引用崩溃
+
+## ✅ 已修复的中等问题
+
+### 3. Dissolve 中 bruise.Amount 转换
+- **修复**: `(int)bruise.Amount` → `Convert.ToInt32(bruise.Amount)` ✓
+- **效果**: 即使出现非整数 Bruise 层数也能正确四舍五入
+
+### 4. WeijiaBits.Spend 原子性
+- **修复**: 添加 `lock(_bits)` 保护读-改-写序列 ✓
+- **效果**: 消除并发竞争条件
+
+## ✅ 已修复的代码质量问题
+
+### 5. 空补丁文件
+- **删除**: Patches/PrismaticCardRewardPatch.cs + 空 Patches 目录 ✓
+
+### 6. 反编译残留注释
+- **清理**: 9 个文件中的 "// Token: [redacted]" 和 "// RID:" 注释 ✓
+
+### 7. 未使用的常量字段
+- **删除**: Strike_Weijia.cs 的 Damage/UpgradeDamage ✓
+- **删除**: Defend_Weijia.cs 的 Block/UpgradeBlock ✓
+
+### 8. project.godot BOM 污染
+- **清理**: 删除 `"ï»¿config_version"=5` 重复键 ✓
+
+### 9. 冗余 using 语句
+- **清理**: WeijiaPower.cs 移除未使用的 `System.Runtime.CompilerServices` ✓
+
+---
+
+## 编译验证
+```
+dotnet build → 0 errors, 0 warnings ✓
+```

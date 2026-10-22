@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=3 uid="uid://c17k4c8el52cw"]
+
+[ext_resource type="Texture2D" uid="uid://dwc87h48whuvn" path="res://images/char/Weijia.png" id="1_ab1sj"]
+
+[node name="WeijiaMerchant" type="Node2D"]
+
+[node name="Bounds" type="Control" parent="."]
+unique_name_in_owner = true
+layout_mode = 3
+anchors_preset = 0
+offset_left = -80.0
+offset_top = -160.0
+offset_right = 80.0
+mouse_filter = 2
+
+[node name="CenterPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(0, -80)
+
+[node name="TalkPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(60, -120)
+
+[node name="Weijia" type="Sprite2D" parent="."]
+position = Vector2(6.999996, -81)
+scale = Vector2(0.31729057, 0.3106277)
+texture = ExtResource("1_ab1sj")

@@ -1,26 +1,42 @@
-GDRE Tools v2.5.0-beta.5
-Windows 10.0.26200, NVIDIA GeForce RTX 4060 Laptop GPU, vulkan
-Opening file: ~/\Downloads\HermitMod-320-1-0-4-1779281362\HermitMod\HermitMod.pck
+﻿GDRE Tools v2.5.0-beta.5
+Windows 10.0.26200, headless
+Opening file: F:/灏栧mod/淇/hermit_temp/Hermit/WeijiaMod.pck
 Guessing bytecode revision from engine version: 4.5.1 (rev 0xebc36a7)
-Loaded 411 imported files
+Loaded 545 imported files
+ERROR: Failed to load assembly F:/灏栧mod/淇/hermit_temp/Hermit/WeijiaMod.dll (Not a valid .NET assembly?)
+   at: GodotMonoDecompWrapper::create (modules\gdsdecomp\utility\godot_mono_decomp_wrapper.cpp:17)
+ERROR: Failed to load assembly F:/灏栧mod/淇/hermit_temp/Hermit/WeijiaMod.dll (Not a valid .NET assembly?)
+   at: GDRESettings::reload_dotnet_assembly (modules\gdsdecomp\utility\gdre_settings.cpp:2783)
+WARNING: Could not load C# assembly, not able to decompile C# scripts...
+   at: GDRESettings::_project_post_load (modules\gdsdecomp\utility\gdre_settings.cpp:816)
 Detected Engine Version: 4.5.1
 Detected Bytecode Revision: 4.5.0-stable (ebc36a7)
-Verified 988 files, 11 files skipped (MD5 hash entry was empty)
-Extracted 988 files, no errors detected!
-ERROR: Failed to decompile C# scripts!
-   at: ImportExporter::export_imports (modules\gdsdecomp\utility\import_exporter.cpp:1042)
+Successfully loaded PCK!
+Version: 4.5.1
+Verified 1128 files, no errors detected!
+Extracted 1128 files, no errors detected!
 Saved project config.
+ERROR: F:/灏栧mod/鏂版祴璇?鍙茶拏澶?鏂版毚鍔?WeijiaMod/scenes/creature_visuals/hermit.tscn:1 - Parse Error: Expected '['.
+   at: ResourceLoaderCompatText::_printerr (modules\gdsdecomp\compat\resource_compat_text.cpp:47)
+ERROR: Condition "error != OK" is true.
+   at: ResourceLoaderCompatText::get_dependencies (modules\gdsdecomp\compat\resource_compat_text.cpp:1155)
+ERROR: Cannot open file 'res://scenes/creature_visuals/hermit.tscn'.
+   at: ResourceFormatLoaderCompatText::custom_load (modules\gdsdecomp\compat\resource_compat_text.cpp:2889)
+ERROR: Cannot open file 'res://scenes/hermit_select_bg.tscn'.
+ERROR: Cannot open file 'res://scenes/combat/energy_counters/hermit_energy_counter.tscn'.
+   at: ResourceFormatLoaderCompatText::custom_load (modules\gdsdecomp\compat\resource_compat_text.cpp:2889)
+   at: ResourceFormatLoaderCompatText::custom_load (modules\gdsdecomp\compat\resource_compat_text.cpp:2889)
 
 
 ********************************EXPORT REPORT********************************
 
 Totals:                                 
 Decompiled scripts:                     0
-Failed scripts:                         152
-Imported resources for export session:  411
-Successfully converted:                 411
+Failed scripts:                         21
+Imported resources for export session:  545
+Successfully converted:                 545
 Lossy:                                  1
-Rewrote metadata:                       407
+Rewrote metadata:                       540
 Non-importable conversions:             0
 Not converted:                          0
 Failed conversions:                     0
@@ -33,4 +49,6 @@ Failed conversions:                     0
 Use Godot editor version 4.5.1 (Mono) to edit the project.
 
 *******************************************************************************
+
+Recovery finished in 00m03s
 
